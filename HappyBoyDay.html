@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="happy.css">
+    <script src="Happy.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1 class="title">Happy Boy's Day TCKT</h1>
+        <div>
+            <input type="text" id="Name" required="required" style="margin-left:5%; margin-top: 3%;">
+            
+
+            <button id="btn">Submit</button>
+        </div>
+        <div class="wrapper">
+            <img src="group.jpg" alt="" id="image">
+            <div class="text-box">
+                <h2 id="CName" style="margin: 2%;"> TỔ CHỨC KIỂM TRA</h2>
+                <p id="CChuc"> Gửi lời tới các anh và các bạn trong ban mình, cảm ơn mọi người khoảng thời gian vừa qua đã luôn
+                    dành thời gian, công sức của mình công hiến cho ban. Chúc mọi người có một ngày lễ ý nghĩa bên cạnh người thân yêu. Chúc mọi người thành công trên con đường đang đi và sẽ luôn là bờ vai vững chắc cho chị em TCKT. Vì chưa được làm việc hết với mọi người nên em/mình chưa thể chúc riêng từng người, mong mọi người thông cảm ạ!!! 
+                </p>
+                <audio controls autoplay style="margin: 2%;">
+                    <source src="cohenvoithanhxuan.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+        <script>
+            
+                const Dung = {
+                    id: "bui trong dung909",
+                    name: "Bùi Trọng Dũng",
+                    img: "Bui Trong Dung.JPG",
+                    wrt: "Nhân ngày 19/11, chúc cho anh luôn vui vẻ, lạc quan và yêu đời anh nhé. Chúc cho tương lai, anh vẫn sẽ như này, không phải lo nghĩ đến các vấn đề trong cuộc sống. Chúc cho tình yêu của anh sớm ngày nở hoa và người đó sẽ mang lại niềm vui và hạnh phúc cho anh. À cuối cùng, nhân dịp đặc biệt này, em tiết lộ lý do mà em ấn tượng về anh. Thì là do anh xếp top 1 trong những người em sợ trong ban. Còn vì sao em sợ thì đấy là câu chuyện dài =))))",
+                }
+                const Thang = {
+                    id: "bui toan thang153",
+                    name: "Bùi Toàn Thắng",
+                    img: 'TCKT/Bùi Toàn Thắng.JPG',
+                    wrt: "Nhân ngày 19/11, vì chưa thực sự hiểu nhiều và tâm sự với anh nên em chỉ biết chúc anh luôn mạnh khỏe, vui tươi và vững tin vào những gì anh chọn. Cảm ơn anh đã dành thời gian của mình để gắn kết tình cảm các thành viên trong ban. Những công sức và thời gian mà anh bỏ ra cho công việc có lẽ em sẽ chẳng bao giờ biết hết được, em chỉ mong anh nhận lại được những gì xứng đáng với sự cống hiến của mình. Dù vậy thì có đôi khi anh sẽ thấy mệt mỏi, hãy nghỉ ngơi để hồi sức rồi hẵng chạy tiếp. Đừng để bản thân kiệt sức anh nhé. Không biết sau 3 tháng em sẽ ở đâu, nhưng dù ở đâu đi chăng nữa thì em vẫn sẽ ủng hộ anh. Đơn giản bởi vì anh làm em cảm thấy anh là người em ngưỡng mộ và đáng được tôn trọng!!! ",
+                }
+                const THung = {
+                    id: "tran ngoc hung096",
+                    name: "Trần Ngọc Hưng",
+                    img: "TCKT/Trần Ngọc Hưng.jpg",
+                    wrt: "Nhân ngày 19/11, chúc cho anh luôn vui vẻ, hạnh phúc bên cạnh những người thân yêu. Chúc học bổng sớm ngày về tay để còn sắm Ipad và Airpod mới. Em thấy hai anh chị đẹp đôi lắm nên là chúc cho hai anh chị sớm chuyển sang giai đoạn mới. Đến lúc đó, nhớ nhắn ban và em để chúng em chúc mừng anh nhé!!! :>>>>",
+                }
+                const HHung = {
+                    id: "nguyen hoang hung756",
+                    name: "Nguyễn Hoàng Hưng",
+                    img: "TCKT/Nguyễn Hoàng Hưng.jpg",
+                    wrt: "Nhân ngày 19/11, chúc anh có một ngày lễ vui vẻ, ý nghĩa bên những người thân yêu. Em chưa tiếp xúc nhiều với anh để biết có thể chúc những gì nên em chỉ mong cho anh luôn vững tin vào con đường mình đã chọn. Chúc cho thành công đến với anh vào một ngày không xa. Em biết anh đang rất nỗ lực khi mà mới nhận chức phó ban nhưng không cần vội vã đâu anh, cứ từ từ thôi. Chúng em hiểu và cảm nhận được tâm ý, sự cố gắng của anh. Mong sau này sẽ có cơ hội làm việc với anh nhiều hơn nha!!! ",
+                }
+                const Phuc = {
+                    id: "tran dinh phuc890",
+                    name: "Trần Đình Phúc",
+                    img: "TCKT/Trần Đình Phúc.JPG",
+                    wrt: "Đến lượt của anh khiến em khó chúc quá. Idol học bổng của ban, không biết phải chúc anh cái gì luôn =))) Đùa vậy thôi, nhân ngày 19/11, em chúc cho anh ngày càng hoàn hảo. Chúc cho anh ngày càng đến gần hơn giấc mơ và hoài bão của bản thân. Cảm ơn anh vì đã dành thời gian của mình cho ban dù việc học đã rất căng thẳng và cảm ơn anh đã cho em một buổi phỏng vấn thú vị trước khi vào ban nha!!! Happy Boy'sDay <3 ",
+                }
+                const Huy = {
+                    id: "tran quang huy424",
+                    name: "Trần Quang Huy",
+                    img: "TCKT/Trần Quang Huy.jpg",
+                    wrt: "Nhân ngày 19/11, chúc cho anh thật nhiều niềm vui. Trong lá thư lần trước em nghĩ mình chúc khá đầy đủ rồi. Lần này, em chúc cho tình yêu của anh sớm nở hoa nhé. Mãnh mẽ lên anh, một người đàn ông ấm áp, vui vẻ và làm người khác thấy thoải mái khi ở cạnh như anh thì em nghĩ không ai từ chối anh đâu. Mạnh dạn tiến tới rồi đưa chị dâu về cho chúng em xem mặt nhé =)))) Cuối cùng, dù anh Thắng có hay trêu anh nhưng mà có đôi khi mình vẫn cần đưa ra lựa chọn. Em cảm ơn khoảng thời gian mà anh đã dành cho ban. Sau này, dù anh ở đâu thì em vẫn sẽ ủng hộ anh. Bình tĩnh và đưa ra lựa chọn cho chính mình, không cần bắt ép bản thân đâu anh. Cố lên!!! <3",
+                }
+                const Hoa = {
+                    id: "pham viet hoa678",
+                    name: "Phạm Việt Hòa",
+                    img: "TCKT/Phạm Việt Hoà.jpg",
+                    wrt: "Nhân ngày 19/11, em mong anh sẽ luôn mạnh khỏe, hạnh phúc, lạc quan và là chỗ dựa vũng chắc cho gia đình anh. Chúc cho anh sớm tìm được tình yêu của đời mình. Em cảm ơn khoảng thời gian và tâm huyết anh dành cho ban mình. Sẽ có lúc anh phải đưa ra sự lựa chọn của bản thân nhưng dù đi hay ở thì em vẫn cảm nhận được anh thực sự yêu ban ta, yêu ban chấp hành này. Những lo lắng anh dành cho nó, có thể đến sau này em mới hiểu được nhưng đừng vì những nỗi lo lắng ấy mà cảm thấy áy náy hay buồn anh nhé vì anh đã làm hết trách nhiệm rồi. Mong anh sẽ tìm được người kế nhiệm mà mình có thể tin tưởng, người có thể duy trì và phát triển tiếp giá trị mà anh để lại!!! ",
+                }
+                const dong = {
+                    id: "cao van dong057",
+                    name: "Cao Văn Đông",
+                    img: "TCKT/Cao Văn Đông.jpg",
+                    wrt: "Nhân ngày 19/11, chúc cho bạn luôn vui vẻ, hạnh phúc bên cạnh những người thân yêu. Chúc học bổng sớm ngày về tay để còn bao tôi một bữa đi ăn nữa. Cảm ơn người anh em H xanh của tôi vì những khoảng thời gian đẹp đã qua nhé!!!",
+                }
+                const huy = {
+                    id: "phung gia huy424",
+                    name: "Phùng Gia Huy",
+                    img: "TCKT/Phùng Gia Huy.JPG",
+                    wrt: "Nhân ngày 19/11, chúc cho bạn luôn vui vẻ, hạnh phúc bên cạnh những người thân yêu. Chúc học bổng sớm ngày về tay để còn bao tôi một bữa đi ăn nữa. Cảm ơn người anh em đồng hương của tôi vì những khoảng thời gian đẹp đã qua nhé!!!",
+                }
+                const an = {
+                    id: "trinh thanh an896",
+                    name: "Trịnh Thành An",
+                    img: "TCKT/Trịnh Thành An.jpg",
+                    wrt: "Nhân ngày 19/11, chúc cho bạn luôn vui vẻ, hạnh phúc bên cạnh những người thân yêu. Chúc học bổng sớm ngày về tay để còn bao tôi một bữa đi ăn nữa. Cảm ơn người anh em tổ 2 đã luôn cùng tôi làm việc và chill chill nha!!!",
+                }
+                const khanh = {
+                    id: "nguyen duc nam khanh424",
+                    name: "Nguyễn Đức Nam Khánh",
+                    img: "TCKT/Nguyễn Đức Nam Khánh.jpg",
+                    wrt: "Nhân ngày 19/11, chúc cho bạn luôn vui vẻ, hạnh phúc bên cạnh những người thân yêu. Chúc học bổng sớm ngày về tay để còn bao tôi một bữa đi ăn nữa. Cảm ơn mami đã dẫn dắt người con này vào con đường liên quân, mami yên tâm là từ nay về sau mami sẽ không gặp cảnh biển đen nữa đâu nên hãy vô tư chia sẻ lên group đi nhé!!!",
+                }
+
+
+
+                const boy = [
+                    Dung, Thang, THung, HHung, Phuc, Huy, Hoa, dong, huy, an, khanh
+                ]
+                const button = document.getElementById('btn');
+                const userName = document.getElementById('Name');
+                const imag = document.getElementById('image');
+                const CName = document.getElementById('CName');
+                const CChuc = document.getElementById('CChuc');
+
+                button.addEventListener('click', () => {
+                    for (let i = 0; i < boy.length; i++) {
+                        if (userName.value == boy[i].id) {
+                            imag.src = boy[i].img;
+                            CName.innerText = boy[i].name;
+                            CChuc.innerText = boy[i].wrt;
+                        }
+                    }
+                })
+        </script>
+
+</body>
+
+</html>
